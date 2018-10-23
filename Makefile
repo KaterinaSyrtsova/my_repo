@@ -10,5 +10,4 @@ sum_between_even_odd.o: sum_between_even_odd.c sum_between_even_odd.h index_firs
 	gcc -c sum_between_even_odd.c
 sum_before_even_and_after_odd.o: sum_before_even_and_after_odd.c sum_before_even_and_after_odd.h index_first_even.h index_last_odd.h
 	gcc -c sum_before_even_and_after_odd.c
-clean:
-	rm -rf *.o menu
+
