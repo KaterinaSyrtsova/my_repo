@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <sum_between_even_odd.h>
 
 int sum_between_even_odd(int *array, int arrayLength) {
   int i;

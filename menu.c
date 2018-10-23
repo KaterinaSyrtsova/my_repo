@@ -1,7 +1,3 @@
-#include <index_first_even.h>
-#include <index_last_odd.h>
-#include <sum_between_even_odd.h>
-#include <sum_before_even_and_after_odd.h>
 #include <stdio.h>
 #define MAX_NUMB 100
 

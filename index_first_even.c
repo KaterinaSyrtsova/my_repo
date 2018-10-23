@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <index_first_even.h>
 
 int index_first_even(int *array, int arrayLength) {
   int i;
