@@ -1,4 +1,8 @@
 #include <stdio.h>
+#include "index_first_even.h"
+#include "index_last_odd.h"
+#include "index_first_even.h"
+#include "index_last_odd.h"
 #define MAX_NUMB 100
 
 int main() {

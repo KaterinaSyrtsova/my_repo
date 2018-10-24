@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "index_last_odd.h"
 
 int index_last_odd(int *array, int arrayLength) {
   int odd = arrayLength;
