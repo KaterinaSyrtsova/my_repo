@@ -19,7 +19,7 @@ typedef struct FilesList {
 int findFile(const char *dirStart, char originalFileName[STRING_SIZE], FilesList  *fileNames) {
 	DIR *dir = opendir(dirStart);
 	char *dirName;
-	int d = 0;
+	int d,k = 0;
 	if (dir) {
 		struct dirent *n = readdir(dir);
 		while (n) {
